@@ -9,6 +9,7 @@
     "src/preload/*.d.ts"
   ],
   "compilerOptions": {
+    "esModuleInterop": true,
     "verbatimModuleSyntax": true,
     "useDefineForClassFields": true,
     "strict": false,
