@@ -1,18 +1,17 @@
-import * as SQLite from 'better-sqlite3';
+import SQLite from 'better-sqlite3';
 import {
   ColumnDefinitionBuilder,
   Kysely,
-  Migration,
-  MigrationProvider,
+  type Migration,
+  type MigrationProvider,
   SqliteDialect,
   sql,
 } from 'kysely';
-import { DB_PATH } from './config';
 import { CustomTypeUnqualifiedEnum, TableNameUnqualifiedEnum } from '../type-system/db';
 import firstMigration from '../db-migration/1_initial';
+import { DB_PATH } from './config';
 
 const dialect = new SqliteDialect({
-  // database: new SQLite(':memory:'),
   database: new SQLite(DB_PATH),
 });
 
@@ -28,10 +27,6 @@ export class OurMigrationProvider implements MigrationProvider {
   }
 }
 
-// Database interface is passed to Kysely's constructor, and from now on, Kysely
-// knows your database structure.
-// Dialect is passed to Kysely's constructor, and from now on, Kysely knows how
-// to communicate with your database.
 export const db = new Kysely<unknown>({
   dialect,
 });

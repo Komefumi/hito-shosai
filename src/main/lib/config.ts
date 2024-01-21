@@ -1,5 +1,6 @@
-import * as path from 'path';
+import path from 'path';
+import { app } from 'electron';
 
-export const MIGRATION_LIST_PATH = path.join(__dirname, '..', 'db-migration');
-export const ROOT_PATH = path.join(__dirname, '..', '..', '..');
-export const DB_PATH = path.join(ROOT_PATH, 'db.sqlite');
+export const ROOT_PATH = path.join(__dirname, '..', '..');
+export const DB_PATH = path.join(app.getPath('userData'), 'db.sqlite');
+console.log({ DB_PATH });
