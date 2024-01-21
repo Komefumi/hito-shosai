@@ -1,5 +1,3 @@
-# Electron-Ek Boilerplate
-
 # Profile Organizer (Hito Shosai)
 
 Hito (人) meaning person, Shōsai (詳細) meaning detail
