@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: electron-ek
+productName: hito-shosai
 directories:
   buildResources: build
 files:
@@ -12,7 +12,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: electron-ek
+  executableName: hito-shosai
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}

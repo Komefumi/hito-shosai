@@ -1,10 +1,13 @@
 # Electron-Ek Boilerplate
 
-A simple electron-vite boilerplate based off of create-electron's [svelte-ts boilerplate](https://github.com/alex8088/quick-start/tree/master/packages/create-electron/playground/svelte-ts)
+# Profile Organizer (Hito Shosai)
 
-## Salient Features
+Hito (人) meaning person, Shōsai (詳細) meaning detail
 
-1. Makes use of bulma
-1. Has an opinionated prettier configuration
+The intention with this application, is this: A person can create any number of 'databases', each which can pertain to any purpose. For each database, you can create any number of profiles, and scenarios, and can link persons to scenarios.
 
-Inherits from the original svelte-ts boilerplate code.
+An example of this utility could be for create a crime database. Where one might want to create a profile of criminals, or suspects, and create cases. And link the two. Notes can be made for each crime, and individual.
+
+As required.
+
+This kind of application can fit many use cases. Use as seen fit
