@@ -2,6 +2,7 @@ import { app, shell, BrowserWindow } from 'electron';
 import { join } from 'path';
 import { electronApp, optimizer, is } from '@electron-toolkit/utils';
 import { migrateDB } from './lib/setup';
+// @ts-ignore
 import icon from '../../resources/icon.png?asset';
 
 function createWindow(): void {
