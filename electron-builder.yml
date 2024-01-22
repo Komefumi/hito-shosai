@@ -1,5 +1,5 @@
 appId: com.electron.app
-productName: hito-shosai
+productName: shakhs-tafseel
 directories:
   buildResources: build
 files:
@@ -12,7 +12,7 @@ files:
 asarUnpack:
   - resources/**
 win:
-  executableName: hito-shosai
+  executableName: shakhs-tafseel
 nsis:
   artifactName: ${name}-${version}-setup.${ext}
   shortcutName: ${productName}

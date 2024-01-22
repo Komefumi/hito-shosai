@@ -1,6 +1,6 @@
-# Profile Organizer (Hito Shosai)
+# Profile Organizer (Shakhs Tafseel)
 
-Hito (人) meaning person, Shōsai (詳細) meaning detail
+Shakhs (شخص) meaning person, Tafseel (تفصیل) meaning detail
 
 The intention with this application, is this: A person can create any number of 'databases', each which can pertain to any purpose. For each database, you can create any number of profiles, and scenarios, and can link persons to scenarios.
 
